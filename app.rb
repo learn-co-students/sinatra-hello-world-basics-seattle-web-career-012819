@@ -1,6 +1,6 @@
 class App < Sinatra::Base
-
-  # Define your GET '/' route below and respond with "Hello, World!"
-
-
+  # Create the #get method for the root path "/"
+  get '/' do
+    "Hello, World!"
+  end
 end

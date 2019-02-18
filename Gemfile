@@ -15,3 +15,5 @@ group :test do
       gem 'capybara'
       gem 'rack-test'
     end
+
+gem 'nokogiri', '~> 1.10.1'
